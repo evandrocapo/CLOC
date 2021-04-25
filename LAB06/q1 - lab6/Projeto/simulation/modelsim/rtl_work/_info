@@ -1,0 +1,117 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/simulation/modelsim
+Elab06_tb
+Z1 w1619314553
+Z2 DPx4 work 10 somadorlib 0 22 aMW=PL1dP1Q[D_P[J3<ec1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd
+Z6 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd
+l0
+L5 1
+V1g2cSldHdTW_FnhRFbM5I1
+!s100 gMcW>ecTCDK^RUk2G[VoU1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1619314572
+!i10b 1
+Z9 !s108 1619314572.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aq1
+R2
+R3
+R4
+DEx4 work 8 lab06_tb 0 22 1g2cSldHdTW_FnhRFbM5I1
+!i122 2
+l11
+L8 16
+VFOXlkOi7]7VbSm8ol3jl?1
+!s100 _KKjPO8eB_I]ac<Sz]]_Z2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd|
+!i113 1
+R11
+R12
+Esomador
+Z14 w1619314137
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd
+Z16 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd
+l0
+L4 1
+VJQgV9l@Hg`SHOH9lnnVeS0
+!s100 ?5S<nibho=BiD9dRbm^R[1
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd|
+Z18 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd|
+!i113 1
+R11
+R12
+Aq1
+R3
+R4
+DEx4 work 7 somador 0 22 JQgV9l@Hg`SHOH9lnnVeS0
+!i122 1
+l12
+L11 5
+VG>`;6V4[DM<_@X9Obd>NI0
+!s100 UBI:;XdJC672RSmhI^@QI0
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R11
+R12
+Psomadorlib
+R3
+R4
+!i122 0
+w1619313413
+R0
+8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd
+FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd
+l0
+L4 1
+VaMW=PL1dP1Q[D_P[J3<ec1
+!s100 2QO_dBj_2QE]m>[7cRl<g1
+R7
+31
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd|
+!i113 1
+R11
+R12

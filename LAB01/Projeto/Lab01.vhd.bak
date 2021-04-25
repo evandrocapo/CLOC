@@ -1,0 +1,12 @@
+ENTITY and2x IS
+	PORT(
+		a: IN BIT;
+		b: IN BIT;
+		c: OUT BIT;
+		);
+	END ENTITY and2x;
+	
+	ARCHITECTURE and2x_arch OF and2x IS
+	BEGIN
+		c <= a AND b;
+	END and2x_arch;

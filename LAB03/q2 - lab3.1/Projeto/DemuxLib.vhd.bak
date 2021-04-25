@@ -1,0 +1,27 @@
+PACKAGE DemuxLib IS  
+   COMPONENT Demux1to4
+		PORT(
+			i : IN std_logic;   
+			s1,s0 : IN std_logic;
+			y3,y2,y1,y0 : OUT std_logic
+		);
+	END COMPONENT
+	
+	COMPONENT Demux1to2
+		PORT(
+			i : IN std_logic;   
+			s0 : IN std_logic;
+			y1,y0 : OUT std_logic
+		);
+	END COMPONENT
+END DemuxLib4to1;
+
+PACKAGE BODY DemuxLib4to1
+BEGIN
+
+y0 <= i AND (NOT s1) AND (NOT s0);
+y1 <= i AND (NOT s1) AND s0;
+y2 <= i AND s1 AND (NOT s0);
+y3 <= i AND s1 and s0;
+
+END ARCHITECTURE;

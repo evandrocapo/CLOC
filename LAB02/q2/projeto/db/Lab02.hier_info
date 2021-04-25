@@ -1,0 +1,20 @@
+|Lab02
+a => e.IN1
+b => f.IN1
+c => g.IN1
+d => h.IN1
+e <> e
+f <> f
+g <> g
+h <> h
+s[0] => f.IN0
+s[0] => h.IN0
+s[0] => e.IN0
+s[0] => g.IN0
+s[1] => g.IN1
+s[1] => h.IN1
+s[1] => e.IN1
+s[1] => f.IN1
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+
+

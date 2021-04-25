@@ -1,0 +1,117 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/simulation/modelsim
+Ealu
+Z1 w1618182180
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd
+Z5 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd
+l0
+L4 1
+VG9fA`Y@3J8:eWQc75XANG1
+!s100 QMa?^lT5beaDJJzZfWV=P2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1618184099
+!i10b 1
+Z8 !s108 1618184099.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd|
+Z10 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aq1
+R2
+R3
+DEx4 work 3 alu 0 22 G9fA`Y@3J8:eWQc75XANG1
+!i122 1
+l14
+L13 8
+Vk[WUjIH]]?Odn`GRP@b8@1
+!s100 FQiSO74X7DNG@aFHfN>2_1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Palulib
+R2
+R3
+!i122 0
+w1618182195
+R0
+8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd
+FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd
+l0
+L4 1
+VGYY[C2L>bXU[HN9Czi16R0
+!s100 YXOmicS4`N`7R5@DVl6?Q0
+R6
+31
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd|
+!i113 1
+R11
+R12
+Elab04_tb
+Z13 w1618184081
+Z14 DPx4 work 6 alulib 0 22 GYY[C2L>bXU[HN9Czi16R0
+R2
+R3
+!i122 2
+R0
+Z15 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd
+Z16 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd
+l0
+L5 1
+V=HWX05`e45]og^IzgX;Kk2
+!s100 FL61k1]ba@45Z11YC7j5_0
+R6
+31
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd|
+!i113 1
+R11
+R12
+Aq1
+R14
+R2
+R3
+DEx4 work 8 lab04_tb 0 22 =HWX05`e45]og^IzgX;Kk2
+!i122 2
+l13
+L8 20
+VBShL?>jT[RbgBS09ddPL]0
+!s100 cijFRSIDlTEYZ6[HmB3Fj1
+R6
+31
+R7
+!i10b 1
+R8
+R17
+Z18 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd|
+!i113 1
+R11
+R12

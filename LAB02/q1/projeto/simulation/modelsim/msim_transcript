@@ -1,0 +1,54 @@
+# Reading pref.tcl
+# do Lab02_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB02/Lab02.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:07:56 on Mar 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB02/Lab02.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Lab02
+# -- Compiling architecture And2x_Arch of Lab02
+# End time: 21:07:56 on Mar 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab02
+# vsim work.lab02 
+# Start time: 21:08:00 on Mar 17,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.lab02(and2x_arch)
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/a
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/c
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/b
+add wave -position 1 -format Logic -height 17 -editable 2 Edit:/lab02/b
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/e
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/g
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/d
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/lab02/d
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/f
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab02/h
+add wave -position 5 -format Logic -height 17 -editable 2 Edit:/lab02/f
+add wave -position insertpoint  \
+sim:/lab02/i
+add wave -position insertpoint  \
+sim:/lab02/j
+add wave -position insertpoint  \
+sim:/lab02/k
+add wave -position insertpoint  \
+sim:/lab02/l
+run -all
+# End time: 21:12:49 on Mar 17,2021, Elapsed time: 0:04:49
+# Errors: 0, Warnings: 0

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/simulation/modelsim
+Elab01
+Z1 w1615332958
+!i122 0
+R0
+Z2 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd
+Z3 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd
+l0
+L1 1
+V<3C;?PQPYX4S9:R`FkQk72
+!s100 3:HN4i8@R:?6K9aU3[BmO3
+Z4 OV;C;2020.1;71
+31
+Z5 !s110 1615334017
+!i10b 1
+Z6 !s108 1615334017.000000
+Z7 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd|
+!i113 1
+Z8 o-93 -work work
+Z9 tExplicit 1 CvgOpt 0
+Alab01_arch
+DEx4 work 5 lab01 0 22 <3C;?PQPYX4S9:R`FkQk72
+!i122 0
+l12
+L11 4
+VX>7YnL^8d2Rb=XAh2GFWg1
+!s100 6EhPN[`@ocm<[?4@A]NFe0
+R4
+31
+R5
+!i10b 1
+R6
+R7
+Z10 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd|
+!i113 1
+R8
+R9

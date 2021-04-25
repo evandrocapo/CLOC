@@ -1,0 +1,15 @@
+|Lab04_tb
+
+
+|Lab04_tb|BitVectorComparator:Comparator1
+a[0] => output.IN0
+a[1] => output.IN0
+a[2] => output.IN0
+a[3] => output.IN0
+b[0] => output.IN1
+b[1] => output.IN1
+b[2] => output.IN1
+b[3] => output.IN1
+output <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,137 @@
+# Reading pref.tcl
+# do Lab01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:53:37 on Mar 09,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB01/Lab01.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity Lab01
+# -- Compiling architecture Lab01_arch of Lab01
+# End time: 20:53:37 on Mar 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab01
+# vsim work.lab01 
+# Start time: 20:53:40 on Mar 09,2021
+# Loading std.standard
+# Loading work.lab01(lab01_arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab01/a
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue 0 -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab01/b
+wave create -driver freeze -pattern clock -initialvalue 0 -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab01/d
+wave create -driver freeze -pattern clock -initialvalue 0 -period 800ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/lab01/e
+run -all
+add wave -position insertpoint  \
+sim:/lab01/c
+run -all
+run -all
+run -all
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab01/a "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/b "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/d "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/e "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab01/a "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/b "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/d "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/e "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+run
+# Break key hit
+run -all
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab01/a "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/b "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/d "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/e "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+run -all
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab01/a "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/b "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/d "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/e "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+run
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /lab01/a "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/b "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/d "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+# Internal Error: In tclprim_ApplyStimulus for /lab01/e "Time value must be greater than "now": 1000 ps
+# ** UI-Msg: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# "
+restart
+run -all
+# End time: 20:55:40 on Mar 09,2021, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 0

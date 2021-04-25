@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY And2x ISPORT (        
+	a : IN std_logic;        
+	b : IN std_logic;        
+	o : OUT std_logic    
+);
+END ENTITY;
+
+ARCHITECTURE And2x_Arch OF And2x IS
+BEGIN    
+	o <= a AND b;
+END ARCHITECTURE;

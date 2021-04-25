@@ -1,0 +1,103 @@
+# Reading pref.tcl
+# do Lab04_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:59 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/AluLib.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package AluLib
+# End time: 20:34:59 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:59 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Alu
+# -- Compiling architecture q1 of Alu
+# End time: 20:34:59 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:34:59 on Apr 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package AluLib
+# -- Compiling entity Lab04_tb
+# -- Compiling architecture q1 of Lab04_tb
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB04/q2 - lab4/Projeto/Lab04_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 20:34:59 on Apr 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 36
+# 
+vsim work.lab04_tb
+# vsim work.lab04_tb 
+# Start time: 20:35:16 on Apr 11,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alulib
+# Loading work.lab04_tb(q1)
+# Loading work.alu(q1)
+add wave -position end  sim:/lab04_tb/a
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Evandro Capovilla  Hostname: EVANDROCAPOVILL  ProcessID: 18784
+#           Attempting to use alternate WLF file "./wlfts3dtze".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts3dtze
+add wave -position end  sim:/lab04_tb/b
+add wave -position end  sim:/lab04_tb/op
+add wave -position end  sim:/lab04_tb/output
+run
+# End time: 20:37:43 on Apr 11,2021, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 2

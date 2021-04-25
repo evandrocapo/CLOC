@@ -1,0 +1,15 @@
+|Lab02
+a => i.IN0
+b => i.IN1
+c => j.IN0
+d => j.IN1
+e => k.IN0
+f => k.IN1
+g => l.IN0
+h => l.IN1
+i << i.DB_MAX_OUTPUT_PORT_TYPE
+j << j.DB_MAX_OUTPUT_PORT_TYPE
+k << k.DB_MAX_OUTPUT_PORT_TYPE
+l << l.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,136 @@
+# Reading pref.tcl
+# do LAB05_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/DecodeLib.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:39:20 on Apr 18,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/DecodeLib.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package DecodeLib
+# End time: 16:39:21 on Apr 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/Decode.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:39:21 on Apr 18,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/Decode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decode
+# -- Compiling architecture q1 of Decode
+# End time: 16:39:21 on Apr 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:39:21 on Apr 18,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package DecodeLib
+# -- Compiling entity LAB05_tb
+# -- Compiling architecture q1 of LAB05_tb
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(16): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB05/q1 - lab5/Projeto/LAB05_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:39:21 on Apr 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 64
+# 
+vsim work.lab05_tb
+# vsim work.lab05_tb 
+# Start time: 16:39:24 on Apr 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.decodelib
+# Loading work.lab05_tb(q1)
+# Loading work.decode(q1)
+add wave -position end  sim:/lab05_tb/g
+add wave -position end  sim:/lab05_tb/f
+add wave -position end  sim:/lab05_tb/x1
+add wave -position end  sim:/lab05_tb/x2
+add wave -position end  sim:/lab05_tb/x3
+add wave -position end  sim:/lab05_tb/x4
+add wave -position end  sim:/lab05_tb/a
+add wave -position end  sim:/lab05_tb/b
+add wave -position end  sim:/lab05_tb/c
+add wave -position end  sim:/lab05_tb/d
+add wave -position end  sim:/lab05_tb/e
+add wave -position end  sim:/lab05_tb/f
+add wave -position end  sim:/lab05_tb/g
+run
+run
+# End time: 16:43:44 on Apr 18,2021, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 0

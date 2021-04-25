@@ -1,0 +1,36 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+USE work.ComparatorLib.all;
+
+ENTITY Lab04_tb IS
+END ENTITY;	
+
+ARCHITECTURE q1 OF Lab04_tb IS
+	SIGNAL a: BIT_VECTOR(3 downto 0);
+	SIGNAL b: BIT_VECTOR(3 downto 0);
+	SIGNAL output: BIT;
+BEGIN
+	Comparator1: BitVectorComparator PORT MAP(a,b,output);
+	
+	a <= "0000" AFTER 0ns, "0001" AFTER 10ns, "0010" AFTER 20ns,
+		  "0011" AFTER 30ns, "0100" AFTER 40ns, "0101" AFTER 50ns,
+		  "0110" AFTER 60ns, "0111" AFTER 70ns, "1000" AFTER 80ns,
+		  "1001" AFTER 90ns, "1010" AFTER 100ns, "1011" AFTER 110ns,
+		  "1100" AFTER 120ns, "1101" AFTER 130ns, "1110" AFTER 140ns,
+		  "1111" AFTER 150ns;
+
+--	b <= "0000" AFTER 0ns, "0001" AFTER 5ns, "0010" AFTER 10ns,
+--		  "0011" AFTER 15ns, "0100" AFTER 20ns, "0101" AFTER 25ns,
+--		  "0110" AFTER 30ns, "0111" AFTER 35ns, "1000" AFTER 40ns,
+--		  "1001" AFTER 45ns, "1010" AFTER 50ns, "1011" AFTER 55ns,
+--		  "1100" AFTER 60ns, "1101" AFTER 65ns, "1110" AFTER 70ns,
+--		  "1111" AFTER 75ns;
+
+	b <= "0000" AFTER 0ns, "0001" AFTER 10ns, "0010" AFTER 20ns,
+		  "0011" AFTER 30ns, "0100" AFTER 40ns, "0101" AFTER 50ns,
+		  "0110" AFTER 60ns, "0111" AFTER 70ns, "1000" AFTER 80ns,
+		  "1001" AFTER 90ns, "1010" AFTER 100ns, "1011" AFTER 110ns,
+		  "1100" AFTER 120ns, "1101" AFTER 130ns, "1110" AFTER 140ns,
+		  "1111" AFTER 150ns;
+		  
+END ARCHITECTURE;

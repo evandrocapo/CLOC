@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q1 - lab3.1/Projeto/Lab03.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q1 - lab3.1/Projeto/db/Lab03.cbx.xml
+design_name = hard_block
+design_name = Lab03
+instance = comp, \y3~output\, y3~output, Lab03, 1
+instance = comp, \y2~output\, y2~output, Lab03, 1
+instance = comp, \y1~output\, y1~output, Lab03, 1
+instance = comp, \y0~output\, y0~output, Lab03, 1
+instance = comp, \i~input\, i~input, Lab03, 1
+instance = comp, \s1~input\, s1~input, Lab03, 1
+instance = comp, \s0~input\, s0~input, Lab03, 1

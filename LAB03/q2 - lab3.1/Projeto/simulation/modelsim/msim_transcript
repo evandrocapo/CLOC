@@ -1,0 +1,83 @@
+# Reading pref.tcl
+# do Lab03_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/demux1to4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:36:30 on Apr 04,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/demux1to4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity demux1to4
+# -- Compiling architecture demux1to4_arch of demux1to4
+# End time: 17:36:30 on Apr 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/demux1to2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:36:30 on Apr 04,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/demux1to2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity demux1to2
+# -- Compiling architecture demux1to2_arch of demux1to2
+# End time: 17:36:30 on Apr 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/DemuxLib.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:36:30 on Apr 04,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/DemuxLib.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package DemuxLib
+# End time: 17:36:30 on Apr 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/Lab03_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:36:30 on Apr 04,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB03/q2 - lab3.1/Projeto/Lab03_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package DemuxLib
+# -- Compiling entity Lab03_tb
+# -- Compiling architecture q1 of Lab03_tb
+# End time: 17:36:30 on Apr 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab03_tb
+# vsim work.lab03_tb 
+# Start time: 17:36:45 on Apr 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.demuxlib
+# Loading work.lab03_tb(q1)
+# Loading work.demux1to2(demux1to2_arch)
+# Loading work.demux1to4(demux1to4_arch)
+add wave -position end  sim:/lab03_tb/i
+add wave -position end  sim:/lab03_tb/s2
+add wave -position end  sim:/lab03_tb/s1
+add wave -position end  sim:/lab03_tb/s0
+add wave -position end  sim:/lab03_tb/y7
+add wave -position end  sim:/lab03_tb/y6
+add wave -position end  sim:/lab03_tb/y5
+add wave -position end  sim:/lab03_tb/y4
+add wave -position end  sim:/lab03_tb/y3
+add wave -position end  sim:/lab03_tb/y2
+add wave -position end  sim:/lab03_tb/y1
+add wave -position end  sim:/lab03_tb/y0
+run -all
+run
+# End time: 17:39:57 on Apr 04,2021, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 0

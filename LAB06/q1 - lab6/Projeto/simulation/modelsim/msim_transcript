@@ -1,0 +1,87 @@
+# Reading pref.tcl
+# do LAB06_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:36:12 on Apr 24,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/SomadorLib.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package SomadorLib
+# End time: 22:36:12 on Apr 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:36:12 on Apr 24,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/Somador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Somador
+# -- Compiling architecture q1 of Somador
+# End time: 22:36:12 on Apr 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:36:12 on Apr 24,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package SomadorLib
+# -- Compiling entity LAB06_TB
+# -- Compiling architecture q1 of LAB06_TB
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(14): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(17): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(18): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB06/q1 - lab6/Projeto/LAB06_TB.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:36:12 on Apr 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 24
+# 
+vsim work.lab06_tb
+# vsim work.lab06_tb 
+# Start time: 22:36:52 on Apr 24,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.somadorlib
+# Loading work.lab06_tb(q1)
+# Loading work.somador(q1)
+add wave -position end  sim:/lab06_tb/a
+add wave -position end  sim:/lab06_tb/b
+add wave -position end  sim:/lab06_tb/cin
+add wave -position end  sim:/lab06_tb/s
+add wave -position end  sim:/lab06_tb/cout
+run
+# End time: 22:39:41 on Apr 24,2021, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 0
