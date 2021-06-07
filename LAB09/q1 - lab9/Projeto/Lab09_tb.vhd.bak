@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+ENTITY Lab09 IS
+	PORT(
+		x1: IN BIT;
+		x2: IN BIT;
+		x3: IN BIT;
+		x4: IN BIT;
+		F: IN BIT;
+	);
+END ENTITY;	
+
+ARCHITECTURE q1 OF Lab09 IS
+	SIGNAL A,B : unsigned(3 DOWNTO 0);
+BEGIN
+	PROCESS(x1,x2,x3,x4)
+	BEGIN
+		F <= x4 AND (NOT x2);
+	END PROCESS;
+END ARCHITECTURE;

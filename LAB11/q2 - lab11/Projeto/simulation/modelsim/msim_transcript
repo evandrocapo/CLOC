@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# do Lab11_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB11/q1 - lab11/Projeto/Lab11.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:08 on Jun 05,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB11/q1 - lab11/Projeto/Lab11.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_BIT
+# -- Compiling entity Lab11
+# -- Compiling architecture Lab11_arch of Lab11
+# End time: 22:57:09 on Jun 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB11/q1 - lab11/Projeto/Lab11_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:57:09 on Jun 05,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB11/q1 - lab11/Projeto/Lab11_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_BIT
+# -- Compiling entity Lab11_tb
+# -- Compiling architecture Lab11_tb_arch of Lab11_tb
+# End time: 22:57:09 on Jun 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  Lab11_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" Lab11_tb 
+# Start time: 22:57:09 on Jun 05,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_bit(body)
+# Loading work.lab11_tb(lab11_tb_arch)
+# Loading work.lab11(lab11_arch)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Evandro Capovilla  Hostname: EVANDROCAPOVILL  ProcessID: 14480
+#           Attempting to use alternate WLF file "./wlft088me1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft088me1
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: Valor de data = 0
+#    Time: 0 ps  Iteration: 0  Instance: /lab11_tb/mem_test
+# ** Note: Valor de data = 1
+#    Time: 10 ns  Iteration: 1  Instance: /lab11_tb/mem_test
+# ** Note: Valor de data = 2
+#    Time: 20 ns  Iteration: 1  Instance: /lab11_tb/mem_test
+# ** Note: Valor de data = 3
+#    Time: 30 ns  Iteration: 1  Instance: /lab11_tb/mem_test
+# End time: 22:58:24 on Jun 05,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2

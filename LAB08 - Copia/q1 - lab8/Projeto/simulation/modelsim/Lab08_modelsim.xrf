@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB08 - Copia/q1 - lab8/Projeto/LAB08.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB08 - Copia/q1 - lab8/Projeto/db/Lab08.cbx.xml
+design_name = hard_block
+design_name = LAB08
+instance = comp, \P[0]~output\, P[0]~output, LAB08, 1
+instance = comp, \P[1]~output\, P[1]~output, LAB08, 1
+instance = comp, \P[2]~output\, P[2]~output, LAB08, 1
+instance = comp, \P[3]~output\, P[3]~output, LAB08, 1
+instance = comp, \P[4]~output\, P[4]~output, LAB08, 1
+instance = comp, \P[5]~output\, P[5]~output, LAB08, 1
+instance = comp, \P[6]~output\, P[6]~output, LAB08, 1
+instance = comp, \P[7]~output\, P[7]~output, LAB08, 1

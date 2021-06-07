@@ -1,0 +1,42 @@
+|Lab08
+m0 => p0.IN0
+m0 => MultiplicadorSuperior:MultiplicadorSuperior1.mk0
+m1 => MultiplicadorSuperior:MultiplicadorSuperior1.mk1
+m2 => ~NO_FANOUT~
+m3 => ~NO_FANOUT~
+q0 => p0.IN1
+q0 => MultiplicadorSuperior:MultiplicadorSuperior1.q0
+q1 => MultiplicadorSuperior:MultiplicadorSuperior1.q1
+q2 => ~NO_FANOUT~
+q3 => ~NO_FANOUT~
+p0 <= p0.DB_MAX_OUTPUT_PORT_TYPE
+p1 <= MultiplicadorSuperior:MultiplicadorSuperior1.s
+p2 <= p2.DB_MAX_OUTPUT_PORT_TYPE
+p3 <= p3.DB_MAX_OUTPUT_PORT_TYPE
+p4 <= p4.DB_MAX_OUTPUT_PORT_TYPE
+p5 <= p5.DB_MAX_OUTPUT_PORT_TYPE
+p6 <= p6.DB_MAX_OUTPUT_PORT_TYPE
+p7 <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab08|MultiplicadorSuperior:MultiplicadorSuperior1
+mk1 => b.IN0
+mk0 => a.IN0
+q0 => b.IN1
+q1 => a.IN1
+cin => Somador:SomadorOutput.cin
+s <= Somador:SomadorOutput.s
+cout <= Somador:SomadorOutput.cout
+
+
+|Lab08|MultiplicadorSuperior:MultiplicadorSuperior1|Somador:SomadorOutput
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+cin => s.IN1
+cin => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

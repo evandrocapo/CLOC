@@ -1,0 +1,100 @@
+# Reading pref.tcl
+# do Lab09_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:40:40 on May 22,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_BIT
+# -- Compiling entity Lab09
+# -- Compiling architecture q1 of Lab09
+# End time: 18:40:40 on May 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:40:40 on May 22,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity Lab09_tb
+# -- Compiling architecture q1_tb of Lab09_tb
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(27): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB09/q1 - lab9/Projeto/Lab09_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 18:40:40 on May 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 15
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  Lab09_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" Lab09_tb 
+# Start time: 18:40:40 on May 22,2021
+# Loading std.standard
+# Loading work.lab09_tb(q1_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_bit(body)
+# Loading work.lab09(q1)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: O F foi modificado: '0'
+#    Time: 0 ps  Iteration: 0  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '1'
+#    Time: 10 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 20 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '1'
+#    Time: 30 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 40 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 50 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 60 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 70 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 80 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '1'
+#    Time: 90 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 100 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '1'
+#    Time: 110 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 120 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 130 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 140 ns  Iteration: 1  Instance: /lab09_tb/f0
+# ** Note: O F foi modificado: '0'
+#    Time: 150 ns  Iteration: 1  Instance: /lab09_tb/f0
+# End time: 18:43:50 on May 22,2021, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0

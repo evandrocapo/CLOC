@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/simulation/modelsim
+Elab10
+Z1 w1622936569
+Z2 DPx4 ieee 11 numeric_bit 0 22 G2;d`f^X6V]cQEn8_38:i1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10.vhd
+Z6 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10.vhd
+l0
+L5 1
+VCl@3F:AmTf_eT0zUnf;5<1
+!s100 NfYP^?fOLYB;]PLf`bKJ02
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1622937269
+!i10b 1
+Z9 !s108 1622937269.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10.vhd|
+Z11 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aula
+R2
+R3
+R4
+DEx4 work 5 lab10 0 22 Cl@3F:AmTf_eT0zUnf;5<1
+!i122 0
+l15
+L13 18
+VH8Ie_aZ2go[A:l>h>eYLY0
+!s100 Z>Ii33l@[@BQ;hYo0T_J03
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Elab10_tb
+Z14 w1622936985
+R2
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10_tb.vhd
+Z16 FC:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10_tb.vhd
+l0
+L5 1
+VP<<DbWLm8go?3zo64X<id3
+!s100 A9CaE;a][2zFi]EhgCTfH0
+R7
+31
+Z17 !s110 1622937270
+!i10b 1
+Z18 !s108 1622937270.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10_tb.vhd|
+!s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10_tb.vhd|
+!i113 1
+R12
+R13
+Aula_tb
+R2
+R3
+R4
+DEx4 work 8 lab10_tb 0 22 P<<DbWLm8go?3zo64X<id3
+!i122 1
+l20
+L8 71
+V=ikjHcoco6:;bImM1aI@W2
+!s100 Rez]?kY3XaN6U6Rg2cNE42
+R7
+31
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 C:/Users/Evandro Capovilla/Desktop/Circuitos Logicos/LAB10/q1 - lab10/Projeto/Lab10_tb.vhd|
+!i113 1
+R12
+R13

@@ -1,0 +1,7 @@
+ENTITY ULA IS
+	PORT (op: IN BIT_VECTOR (1 DOWNTO 0);        
+	      imm : IN BIT_VECTOR (7 DOWNTO 0);
+			clk : IN BIT
+	);
+END ENTITY;
+

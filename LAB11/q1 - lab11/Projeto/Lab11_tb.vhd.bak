@@ -1,0 +1,56 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+use IEEE.numeric_bit.all;
+
+ENTITY Lab11 IS
+	PORT (
+			address: IN BIT_VECTOR (3 DOWNTO 0);        
+	      data : OUT BIT_VECTOR (9 DOWNTO 0)
+	);
+END ENTITY;
+
+
+ARCHITECTURE Lab11_arch OF Lab11 IS
+	TYPE mem IS ARRAY ( 0 TO 2**4 - 1) OF BIT_VECTOR(9 DOWNTO 0);
+	CONSTANT my_Rom : mem := (
+		0  => "0000000000",
+		1  => "0000000000",
+		2  => "0000000000",
+		3  => "0000000000",
+		4  => "0000000000",
+		5  => "0000000000",
+		6  => "0000000000",
+		7  => "0000000000",
+		8  => "0000000000",
+		9  => "0000000000",
+		10 => "0000000000",
+		11 => "0000000000",
+		12 => "0000000000",
+		13 => "0000000000",
+		14 => "0000000000",
+		15 => "0000000000"
+	);
+BEGIN
+	PROCESS (address)
+		BEGIN
+			CASE address IS
+				WHEN "0000" => data <= my_rom(0);
+				WHEN "0001" => data <= my_rom(1);
+				WHEN "0010" => data <= my_rom(2);
+				WHEN "0011" => data <= my_rom(3);
+				WHEN "0100" => data <= my_rom(4);
+				WHEN "0101" => data <= my_rom(5);
+				WHEN "0110" => data <= my_rom(6);
+				WHEN "0111" => data <= my_rom(7);
+				WHEN "1000" => data <= my_rom(8);
+				WHEN "1001" => data <= my_rom(9);
+				WHEN "1010" => data <= my_rom(10);
+				WHEN "1011" => data <= my_rom(11);
+				WHEN "1100" => data <= my_rom(12);
+				WHEN "1101" => data <= my_rom(13);
+				WHEN "1110" => data <= my_rom(14);
+				WHEN "1111" => data <= my_rom(15);
+				WHEN others => data <= "0000000000";
+			END CASE;
+	END PROCESS;
+END ARCHITECTURE;

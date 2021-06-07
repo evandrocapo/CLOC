@@ -1,0 +1,14 @@
+|Lab10
+op[0] => ~NO_FANOUT~
+op[1] => ~NO_FANOUT~
+imm[0] => ~NO_FANOUT~
+imm[1] => ~NO_FANOUT~
+imm[2] => ~NO_FANOUT~
+imm[3] => ~NO_FANOUT~
+imm[4] => ~NO_FANOUT~
+imm[5] => ~NO_FANOUT~
+imm[6] => ~NO_FANOUT~
+imm[7] => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+
+

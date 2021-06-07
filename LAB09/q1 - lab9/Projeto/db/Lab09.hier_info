@@ -1,0 +1,8 @@
+|Lab09
+x1 => ~NO_FANOUT~
+x2 => F.IN0
+x3 => ~NO_FANOUT~
+x4 => F.IN1
+F << F.DB_MAX_OUTPUT_PORT_TYPE
+
+
